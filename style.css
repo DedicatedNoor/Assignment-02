@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif;
+    background: #000000;
+}
+
+.header-section{
+    max-width: 1070px;
+    margin: 50px auto;
+    padding: 0 5px;
+}
+/* common style  */
+.display-flex{
+    display: flex;
+}
+.section-description{
+    color: #ffffff80;
+    margin: 16px 0;
+    text-align: justify;
+}
+.tab-btn{
+    background-color: #e6533c;
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 8px 20px;
+    border-radius: 46px;
+    border: none;
+}
+.common-btn{
+    background-color: #e6533c;
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 16px 40px;
+    border-radius: 46px;
+    border: none;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+/* common style end */
+
+/* nav section start here  */
+header{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(43, 43, 43) 50%, rgb(0, 0, 0) 100%);
+}
+    
+.main-nav{
+    align-items: center;
+    justify-content: space-between;
+
+}
+.tab-container{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 39px;
+
+}
+.nav-title{
+    color:  #e6533c;
+    font-weight: 800px;
+    font-size: 3.5rem;
+}
+.list-container{
+    display: flex;
+    gap: 47px;
+    
+}
+.list-content{
+    list-style: none;
+    padding: 15px;
+}
+.item-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu{
+    width: 20px;
+    display: none;
+}
+
+
+/* hero section start here  */
+.heroSection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content:space-between;
+    gap: 60px;
+}
+.hero-img-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.heroTitleContainer{
+    max-width: 520px;
+}
+.heroTitle{
+    color: white;
+    font-weight: 900;
+    font-size: 4.875rem;
+    margin-bottom: 16px;
+}
+.heroTitelDesign{
+    font-family: "Fleur De Leah", cursive;
+}
+.third-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 16px;
+}
+
+.hero-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.img-title-box{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 16px 24px;
+    width: 200px;
+    border-radius: 12px;
+}
+.img-title-box-position1{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+.img-title-box-position2{
+    position: absolute;
+    bottom: 50px;
+}
+.img-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.img-description{
+    font-size: 0.813rem;
+    color: #ffffffa6;
+}
+.circle{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+.flex-style{
+    align-items: center;
+    gap: 12px;
+}
+/* header section end here  */
+
+/* main section start here  */
+
+
+/* habit section  */
+.habit-section{
+    max-width: 1070px;
+    margin: 50px auto;
+}
+.habitContent{
+    text-align: center;
+    max-width: 671px;
+    margin: 0 auto;
+}
+
+.habitCardContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: 56px;
+}
+.habit-img{
+    border-radius: 50%;
+    border: 1px solid rgb(176, 176, 176);
+}
+.card-title{
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* run section start here  */
+.run-section{
+    background-color: rgb(34, 34, 34);
+    padding: 30px 30px 30px 50px;
+    border-radius: 18px;
+    align-items: center;
+    gap: 150px;
+}
+/* run section end  */
+
+/* my talent section start */
+#title-header{
+    color: white;
+    text-align: center;
+    font-weight: 800px;
+    font-size: 3rem;
+}
+.my-current-talent-discription{
+    color: white;
+    text-align: center;
+}
+.talent-discription{
+    color: white;
+    font-size: 15px;
+}
+#my-current-talent{
+    margin: 100px auto;
+    padding: 20px 0 0 0;
+    width: 100%;
+    text-align: justify;
+    max-width: 1140px;  
+} 
+.skills-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+.skill{
+    max-width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 2px 3px gray;
+    background: rgba(255, 75, 30, 0.052);
+}
+.skill-two{
+    background: rgba(0, 77, 232, 0.052);
+}
+.skill-three{
+    background: rgba(255, 221, 0, 0.052);
+}
+.skill-title{
+    color: aliceblue;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+.skill-description{
+    color: gray;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+.links{
+    font-weight: 700;
+    color: #ffffff;
+}
+/* my talent section end */
+
+/* bmi section start here  */
+.bmi-title-section{
+    text-align: left;
+    margin-bottom: 80px;
+}
+.BMI-container{
+    background-color: rgb(34, 34, 34);
+    padding: 52px 0;
+
+}
+
+.myBmiContainer{
+    gap: 150px;
+}
+
+.sectionTitleTwo{
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.bmi-table,tr,td, th{
+    border: 1px solid rgba(255, 255, 255, 0.3) ;
+    border-collapse: collapse;
+    padding: 14px 20px;
+    text-align: left;
+    margin-top: 52px;
+}
+thead{
+    font-weight: 600;
+    color: white;
+}
+tbody{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.CalculateContent{
+    flex: 1;
+}
+
+
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.input-group input, .input-group select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px;
+    width: 48%;
+}
+
+.full-width-input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+/* bmi section end here  */
+
+/* meet out team section start here  */
+.meetPhotoContaier{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    place-items: center;
+    border-radius: 18px;
+}
+.photoContent{
+    border-radius: 18px;
+    height: 272px;
+    width: 100%;
+    display: flex;
+    color: white;
+    padding: 10px;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #0000007d;
+    background-blend-mode: overlay;
+    
+}
+.meetphoto1{
+    background-image: url('./assets/trainer1.png');
+    background-size: cover;
+}
+.meetphoto2{
+    background-image: url('./assets/trainer2.png');
+    background-size: cover;
+}
+.meetphoto3{
+    background-image: url('./assets/trainer3.png');
+    background-size: cover;
+}
+.meetphoto4{
+    background-image: url('./assets/trainer4.png');
+    background-size: cover;
+}
+.meetphoto5{
+    background-image: url('./assets/trainer5.png');
+    background-size: cover;
+}
+.meetphoto6{
+    background-image: url('./assets/trainer6.png');
+    background-size: cover;
+}
+/* meet our team section end here  */
+
+/* footer section start here  */
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px 0;
+}
+.footerContainer{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
+    padding-bottom: 80px;
+}
+.footer-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 40px;
+}
+.footerListItem{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footerlink{
+    color:  rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 1.438rem;
+}
+.footerLastLine{
+    text-align: center;
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* footer section end here  */
+
+
+/* mobile screen responsive design here  */
+@media screen and (max-width: 576px) {
+    
+    header{
+        margin: 10px auto;
+    }
+    .tab-container{
+        border: none;
+    }
+    .list-container, .club{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+
+
+    .heroSection,
+    .habitCardContainer,
+    .meetPhotoContaier,
+    .uniqueSectionContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footerContainer{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+        margin: 0 10px;
+    }
+
+    .third-btn{
+        margin-left: 5px;
+    } 
+
+    .common-btn{
+        padding: 16px 32px;
+    }
+    .img-title-box-position1{
+        right: 0;
+        top: -50px;
+    }
+    .img-title-box-position2{
+        bottom: 100px;
+    }
+    .run-section {
+        padding: 32px;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    .btn-width, .img-width{
+        width: 100%;
+    }
+
+    .myBmiContainer{
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .uniqueSection{
+        padding: 100px 0;
+    }
+
+}
