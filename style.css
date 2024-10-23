@@ -174,7 +174,7 @@ header{
     max-width: 1070px;
     margin: 50px auto;
 }
-.habitContent{
+.habit-content{
     text-align: center;
     max-width: 671px;
     margin: 0 auto;
@@ -279,7 +279,7 @@ header{
 
 }
 
-.myBmiContainer{
+.my-BMI-container{
     gap: 150px;
 }
 
@@ -304,7 +304,7 @@ tbody{
 }
 
 
-.CalculateContent{
+.Calculate-Content{
     flex: 1;
 }
 
@@ -318,7 +318,7 @@ tbody{
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
-    color: white;
+    color: rgb(245, 68, 68);
     padding: 12px 20px;
     width: 48%;
 }
@@ -328,7 +328,7 @@ tbody{
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
-    color: white;
+    color: rgb(245, 68, 68);
     padding: 12px 20px;
     margin-bottom: 10px;
 }
@@ -472,7 +472,7 @@ footer{
         width: 100%;
     }
 
-    .myBmiContainer{
+    .my-BMI-container{
         gap: 50px;
         flex-direction: column;
     }
