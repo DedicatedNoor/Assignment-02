@@ -44,6 +44,12 @@ body{
     font-size: 3rem;
     font-weight: 900;
     color: #ffffff;
+    text-align: center;
+}
+.section-title-tun{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
 }
 
 /* common style end */
@@ -335,7 +341,7 @@ tbody{
 /* bmi section end here  */
 
 /* meet out team section start here  */
-.meetPhotoContaier{
+.meet-photo-contaier{
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     display: grid;
@@ -388,7 +394,7 @@ footer{
     background-color: rgba(255, 255, 255, 0.1);
     padding: 40px 0;
 }
-.footerContainer{
+.footer-container{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -437,12 +443,12 @@ footer{
 
     .heroSection,
     .habitCardContainer,
-    .meetPhotoContaier,
+    .meet-photo-contaier,
     .uniqueSectionContainer{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .footerContainer{
+    .footer-container{
         grid-template-columns: repeat(1, 1fr);
         justify-items: start;
         margin: 0 10px;
